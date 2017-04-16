@@ -1,0 +1,20 @@
+[ 2016-09-05T16:58:13+08:00 ] 127.0.0.1 /yc/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000703s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001161s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001237s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.007319s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.007437s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.249467s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.249572s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002999s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003782s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004297s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004398s ]
+
